@@ -27,7 +27,14 @@ int main() {
     mahasiswa.displayInfo();
     mahasiswa.greet();
 
+if (mahasiswa.isLulus()) {
+        cout << "Lulus: Ya" << endl;
+    } else {
+        cout << "Lulus: Tidak" << endl;
+    }
 
+    cout << "Selamat!" << endl;
 
-
+    return 0;
+}
 
