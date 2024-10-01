@@ -13,11 +13,19 @@ Public:
     Void displayInfo() const {
         Cout << “Nama: “ << nama << “, Umur: “ << umur << “, IPK: “ << ipk << endl;
     }
-
-     Bool isLulus() const {
-Return umur >= 18 && ipk >= 3.0;
+    Bool isLulus() const {
+        Return umur >= 18 && ipk >= 3.0;
     }
+    void greet() const {
+        cout << "Halo!" << endl;
+    }
+};
 
+int main() {
+    Mahasiswa mahasiswa("Robertus", 19, 3.8);
+
+    mahasiswa.displayInfo();
+    mahasiswa.greet();
 
 
 
