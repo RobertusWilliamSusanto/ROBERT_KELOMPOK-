@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
 
-tedttsdukgdfjsd
+class Mahasiswa {
+private:
+    string nama;
+    int umur;
+    float ipk;
+
 
 
 
